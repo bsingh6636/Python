@@ -1,0 +1,5 @@
+a=("Singh",45,False,65,32.65)
+print(a.count(45))
+print(a.index(45))
+print(False in a)
+print(len(a))
