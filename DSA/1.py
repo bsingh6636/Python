@@ -108,6 +108,7 @@
 
 
 
+
 # def nStarTriangle(n: int) -> None:
 #     sppace = 0
 #     for i in range (n , 0 , -1 ) :
@@ -126,21 +127,85 @@
 #      *
 
 
-def nStarDiamond(n: int) -> None:
-    # Write your code here.
-    sppace = n - 1
-    for i in range (1 , n + 1):
-        star = '*' * ((2 * i)-1)
-        space = ' ' * sppace
-        print(space + star)
-        sppace -= 1
-    sppace = 0
-    for i in range (n , 0 , -1):
-        space = ' ' * sppace
-        start = '*' * ((2 * i) -1 )
-        print(space + start)
-        sppace += 1
-        
-    pass
 
-nStarDiamond(7)
+
+
+
+# def nStarDiamond(n: int) -> None:
+#     # Write your code here.
+#     sppace = n - 1
+#     for i in range (1 , n + 1):
+#         star = '*' * ((2 * i)-1)
+#         space = ' ' * sppace
+#         print(space + star)
+#         sppace -= 1
+#     sppace = 0
+#     for i in range (n , 0 , -1):
+#         space = ' ' * sppace
+#         start = '*' * ((2 * i) -1 )
+#         print(space + start)
+#         sppace += 1
+        
+#     pass
+
+# nStarDiamond(7)
+
+#     *
+#      ***
+#     *****
+#    *******
+#   *********
+#  ***********
+# *************
+# *************
+#  ***********
+#   *********
+#    *******
+#     *****
+#      ***
+#       *
+
+
+
+
+# def nStarTriangle(n: int) -> None:
+#     # Write your code here.
+#     for i in range (1 , n+1):
+#         star = '*' * i
+#         print(star)
+#     for i in range (n - 1 , 0 , -1):
+#         star = '*' * i
+#         print(star)
+#     pass
+
+
+# nStarTriangle(5)
+
+# *
+# **
+# ***
+# ****
+# *****
+# ****
+# ***
+# **
+# *
+
+
+
+
+# def nBinaryTriangle(n: int) -> None:
+#     for i in range (0 ,n):
+#         initial = ( i % 2^1)
+#         for j in range (i+1):
+#             print(initial , end =' ')
+#             initial = initial^1
+#         print()
+# nBinaryTriangle(7)
+# 1 
+# 0 1 
+# 1 0 1 
+# 0 1 0 1 
+# 1 0 1 0 1 
+# 0 1 0 1 0 1 
+# 1 0 1 0 1 0 1 
