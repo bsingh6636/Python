@@ -240,3 +240,20 @@
 # 2 3 
 # 4 5 6 
 # 7 8 9 10 
+
+
+# def nLetterTriangle(n: int) -> None:
+#     # Write your solution here.
+#     for i in range ( 1 , n + 1 ):
+#         for j in range ( i ):
+#             print(chr(65 + j) , end =' ' )
+#         print()
+#     pass
+
+# nLetterTriangle(5)
+
+# A 
+# A B 
+# A B C 
+# A B C D 
+# A B C D E 
