@@ -257,3 +257,54 @@
 # A B C 
 # A B C D 
 # A B C D E 
+
+# def nLetterTriangle(n: int):
+#     # Write your solution here.
+#     for i in range ( n ):
+#         for j in range (n-i):
+#             print(chr(65 + j) , end = ' ' )
+#         print()
+#     pass
+
+# nLetterTriangle(5)
+
+# A B C D E 
+# A B C D 
+# A B C 
+# A B 
+# A 
+
+
+# def alphaRamp(n: int) -> None:
+#     # Write your solution from here.
+#     for i in range ( 1 , n + 1):
+#         letter = chr(65 + ( i -1 ) ) + ' '
+#         print(letter * i , end='' )
+#         print()
+#     pass
+
+# alphaRamp(4)
+
+# A 
+# B B 
+# C C C 
+# D D D D
+
+
+
+# 18
+# def alphaTriangle(n: int):
+#     # Write your solution here.
+#     for i in range ( 1 ,  n + 1 ):
+#         for j in range ( 1 , i  + 1 ):
+#             print(chr(65 + (n - j) ) , end=' ' )
+#         print()
+#     pass
+
+
+# alphaTriangle(4)
+
+# D 
+# D C 
+# D C B 
+# D C B A 
