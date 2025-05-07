@@ -337,3 +337,25 @@
 # * * * *         * * * * 
 # * * * * *     * * * * * 
 # * * * * * * * * * * * * 
+
+# 20
+
+# def symmetry(n: int):
+#     for i in range( 1 , n+1 ):
+#         star = '* ' * i
+#         space = '  ' * (n - i)
+#         print(star + space + space + star)
+#     for j in range ( n - 1 , 0 , -1 ):
+#         star = '* ' * j
+#         space = '  ' * (n - j)
+#         print(star + space + space + star)
+#     pass
+
+# symmetry(4)
+# *             * 
+# * *         * * 
+# * * *     * * * 
+# * * * * * * * * 
+# * * *     * * * 
+# * *         * * 
+# *             * 
