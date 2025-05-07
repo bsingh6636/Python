@@ -308,3 +308,32 @@
 # D C 
 # D C B 
 # D C B A 
+
+
+# 19
+
+# def symmetry(n: int):
+#     # Write your solution from here.
+#     for i in range (0 , n ):
+#         star = '* ' * ( n - i )
+#         space = '  ' * i
+#         print (star + space + space + star)
+#     for j in range ( n - 1 , -1 , -1 ):
+#         star = '* ' * ( n - j )
+#         space = '  ' * j
+#         print (star + space + space + star)
+#     pass
+
+# symmetry(6)
+# * * * * * * * * * * * * 
+# * * * * *     * * * * * 
+# * * * *         * * * * 
+# * * *             * * * 
+# * *                 * * 
+# *                     * 
+# *                     * 
+# * *                 * * 
+# * * *             * * * 
+# * * * *         * * * * 
+# * * * * *     * * * * * 
+# * * * * * * * * * * * * 
