@@ -48,3 +48,5 @@ merge2([1], 1 , [] , 0)
 // 8186 debit
 // 6500 Credit
 // 7255 debit
+// 11000 credit
+// 13598 debit
