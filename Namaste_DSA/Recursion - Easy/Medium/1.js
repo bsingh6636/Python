@@ -26,3 +26,12 @@ function array_sum(n) {
 }
 
 console.log(array_sum(arr.length - 1))
+
+
+function array_odd_sum(n) {
+    if (n == 0) return arr[n] & 1 ? arr[n] : null;
+    if (arr[n] & 1) return arr[n] + array_sum(n - 1)
+    else return array_sum(n - 1)
+}
+
+console.log(array_odd_sum(arr.length - 1))
