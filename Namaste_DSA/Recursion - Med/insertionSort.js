@@ -1,6 +1,6 @@
-const arr = [3, 12, 45, 65, 34, 5, 3, 5, 34245, 45, 32, 5];
 
-const insertionSort = async () => {
+
+const insertionSort = (arr) => {
     for (let i = 0; i < arr.length; i++) {
         let current = i + 1;
         let prev = i;
@@ -16,4 +16,7 @@ const insertionSort = async () => {
     return arr;
 }
 
-console.log(insertionSort());
+let arr1 = [5, 4, 3, 2, 1]
+let arr2 = [3, 12, 65, 34, 34245, 45, 32, 5]
+
+console.log(insertionSort([3]));
