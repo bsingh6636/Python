@@ -1,0 +1,17 @@
+{
+  // Disable AI inline code suggestions / ghost text (e.g., Copilot, Antigravity Tab)
+  "editor.inlineSuggest.enabled": false,
+
+  // Disable automatic IntelliSense popups while typing
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+
+  // Disable popups triggered by characters like '.'
+  "editor.suggestOnTriggerCharacters": false,
+
+  // Disable word-based suggestions
+  "editor.wordBasedSuggestions": "off"
+}

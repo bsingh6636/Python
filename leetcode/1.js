@@ -4,8 +4,6 @@
 
 // You can return the answer in any order.
 
- 
-
 // Example 1:
 
 // Input: nums = [2,7,11,15], target = 9
@@ -26,5 +24,33 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-    const numMap = new Map();
+    let map = new Map();
+    for( let i = 0 ; i <= nums.length -1 ; i++ ){
+        const needed = target - nums[i];
+        if(map.has(needed)){
+            return [map.get(needed) , i]
+        }
+        map.set(nums[i] , i)
+    }
+    return [];
 };
+
+// const twoSum = (nums , target) =>{
+//     nums.sort((a,b) => a -b );
+//     let left = 0 ;
+//     let right = nums.length -1 ;
+//     while(left < right){
+//         const sum = nums[left] + nums[right];
+//         if(sum === target){
+//             return [left , right]
+//         }else if(sum > target){
+//             right --
+//         }else{
+//             left ++
+//         }
+//     }
+//     return [];
+
+// }
+
+console.log(twoSum( [ 3 , 4 , 1 , 7 ] , 11 ))
